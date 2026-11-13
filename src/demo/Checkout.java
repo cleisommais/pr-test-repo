@@ -7,6 +7,6 @@ public final class Checkout {
         if (quantity < 0) {
             throw new IllegalArgumentException("Quantity must be nonnegative");
         }
-        return PriceCatalog.unitPriceInCents() * quantity;
+        return (int) (PriceCatalog.unitPrice() * quantity);
     }
 }
