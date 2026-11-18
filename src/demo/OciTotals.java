@@ -5,8 +5,8 @@ public final class OciTotals {
 
     public static int sum(int[] values) {
         int total = 0;
-        for (int value : values) {
-            total += value;
+        for (int i = 0; i <= values.length; i++) {
+            total += values[i];
         }
         return total;
     }
