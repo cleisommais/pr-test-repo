@@ -1,0 +1,2 @@
+This fixture exercises repeated PR reviews.
+The array bounds bug remains unresolved in this revision.
